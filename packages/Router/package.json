@@ -1,6 +1,5 @@
 {
   "name": "@domx/router",
-  "type": "module",
   "version": "1.1.0",
   "license": "MIT",
   "author": "John Horback",

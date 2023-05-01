@@ -1,6 +1,5 @@
 {
   "name": "@domx/dataelement",
-  "type": "module",
   "version": "1.0.0",
   "license": "MIT",
   "author": "John Horback",
