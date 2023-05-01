@@ -1,4 +1,4 @@
 export {
     Router,
     Route
-} from "./Router";
+} from "./Router.js";

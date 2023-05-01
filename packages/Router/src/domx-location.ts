@@ -1,7 +1,7 @@
 import { DataElement } from "@domx/dataelement";
 import { customDataElement, dataProperty, event } from "@domx/dataelement/decorators";
-import { Router } from ".";
-import { RouteLocation, LocationChangedDetail, QueryParams } from "./Router";
+import { Router } from "./index.js";
+import { RouteLocation, LocationChangedDetail, QueryParams } from "./Router.js";
 export { DomxLocation }
 
 

@@ -1,11 +1,11 @@
 import { LitElement, html, css } from "lit";
 import {customElement, property, query} from 'lit/decorators.js';
-import { QueryParams, Route, RouteParams, RouteState } from "./Router";
+import { QueryParams, Route, RouteParams, RouteState } from "./Router.js";
 import { Logger } from "@domx/middleware/Logger";
-import { DomxLocation } from "./domx-location";
-import { DomxRouteData } from "./domx-route-data";
-import { Router } from ".";
-import { monitorParentRoute, appendElement } from "./domxRoute";
+import { DomxLocation } from "./domx-location.js";
+import { DomxRouteData } from "./domx-route-data.js";
+import { Router } from "./index.js";
+import { monitorParentRoute, appendElement } from "./domxRoute.js";
 // import again since DomxLocation is included for types
 import "./domx-location"; 
 export {

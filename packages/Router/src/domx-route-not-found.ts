@@ -1,9 +1,9 @@
 import { LitElement, html } from "lit";
 import { customElement, property, query } from "lit/decorators.js";
-import { DomxLocation } from "./domx-location";
-import { RouteLocation } from "./Router";
-import { appendElement } from "./domxRoute";
-import { DomxRoute } from "./domx-route";
+import { DomxLocation } from "./domx-location.js";
+import { RouteLocation } from "./Router.js";
+import { appendElement } from "./domxRoute.js";
+import { DomxRoute } from "./domx-route.js";
 export { DomxRouteNotFound }
 
 /**

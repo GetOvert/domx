@@ -1,4 +1,4 @@
-import { Router, Route, RouteParams, RouteMatch } from "./Router";
+import { Router, Route, RouteParams, RouteMatch } from "./Router.js";
 export { routeMatches, getRouteMatch };
 
 

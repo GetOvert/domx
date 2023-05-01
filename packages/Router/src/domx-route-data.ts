@@ -1,6 +1,6 @@
 import { DataElement } from "@domx/dataelement";
 import { customDataElement, dataProperty } from "@domx/dataelement/decorators";
-import { Router, Route, RouteLocation, RouteState, RouteInfo } from "./Router";
+import { Router, Route, RouteLocation, RouteState, RouteInfo } from "./Router.js";
 export { DomxRouteData }
 
 @customDataElement("domx-route-data", {stateIdProperty: "routeId"})
